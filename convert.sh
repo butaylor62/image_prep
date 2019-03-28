@@ -10,4 +10,5 @@ echo '"' >>tmp
 
 convert -size 1200x$HEIGHT xc:white -font Courier -pointsize 16 -fill black -draw @tmp $2
 
+# Clean up.
 rm tmp
